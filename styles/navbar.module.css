@@ -1,33 +1,7 @@
-.appear {
-    visibility: hidden;
-}
-
-.appearDone {
-    visibility: hidden;
-}
-
-.enter {
-    visibility: visible;
-}
-
-.enterActive {
-    visibility: hidden;
-    transition: visibility 0.1s;
-}
-
-.enterDone {
-    visibility: hidden;
-}
-
-.exit {
-    visibility: hidden;
-}
-
-.exitActive {
-    visibility: visible;
-    transition: visibility 0.1s;
-}
-
-.exitDone {
-    visibility: visible;
+.navMobileHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
