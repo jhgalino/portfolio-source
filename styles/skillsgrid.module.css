@@ -1,14 +1,47 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 0;
+    min-width: 0;
+}
+
+.skill p {
+    font-size: small;
+}
+
+.skill img {
+    width: 5rem;
+}
+
 .skillGrid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     row-gap: 2rem;
 }
 
+/* Mobile CSS */
 @media screen and (max-width: 600px) {
+    .skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 0;
+        min-height: 0;
+    }
+
+    .skill p {
+        font-size: small;
+    }
+
+    .skill img {
+        width: 2rem;
+    }
+
     .skillGrid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        row-gap: 2rem;
-        column-gap: 2rem;
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
     }
 }
