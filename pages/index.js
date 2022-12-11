@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Navbar from "./components/navbar";
 import SkillsGrid from "./components/skillsGrid";
+import projectStyle from '../styles/projects.module.css';
+import vaxPic from '../public/vax.webp';
+import webScrapePic from '../public/web-scrape.webp';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -34,7 +38,38 @@ export default function Home() {
             </header>
             <SkillsGrid></SkillsGrid>
           </section>
+          <hr />
+          <section>
+            <header>
+              <h3>Projects</h3>
+            </header>
+            <div className={projectStyle.projects}>
+              <div className={'terminal-card'}>
+                <header>Vax</header>
+                <div className={projectStyle.projectsItem}>
+                  <Image src={vaxPic} alt={'Image of the main menu of the game called Vax'}></Image>
+                  <p>A video game submitted as a school requirement.</p>
+                  <p>Link: <a href={'https://github.com/Vax-CS192/Vax'}>Github</a></p>
+                  <hr />
+                  <p>Built with Godot</p>
+                </div>
+              </div>
+              <div className={'terminal-card'}>
+                <header>web-scrape-rs</header>
+                <div className={projectStyle.projectsItem}>
+                  <Image src={webScrapePic} alt={'Image of the code for web-scrape-rs'}></Image>
+                  <p>A console application for getting the source of a website.</p>
+                  <p>Link: <a href={'https://github.com/jhgalino/web-scrape-rs'}>Github</a></p>
+                  <hr />
+                  <p>Built with Rust</p>
+                </div>
+              </div>
+            </div>
+          </section>
         </main>
+        <footer>
+          <p>Copyright 2022</p>
+        </footer>
       </div>
     </div>
   )
