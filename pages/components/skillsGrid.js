@@ -36,12 +36,12 @@ export default function SkillsGrid() {
         <p>Godot</p>
       </div>
       <div className={styles.skill}>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg" />
-        <p>Rails</p>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+        <p>Git</p>
       </div>
       <div className={styles.skill}>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
-        <p>NextJS</p>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+        <p>Github</p>
       </div>
       <div className={styles.skill}>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />

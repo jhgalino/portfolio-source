@@ -18,16 +18,12 @@ export default function Home() {
         <main>
           <section>
             <h1>John Henry Galino</h1>
-            <h2>Aspiring Software Developer</h2>
+            <h2>Aspiring Software Engineer</h2>
           </section>
-          <hr/>
           <section>
-            <header>
-              <h3>About</h3>
-            </header>
             <p>
-              Hello! I&lsquo;m an aspiring Software Developer from the Philippines. I&lsquo;m currently on my graduating
-              year in the University of the Philippines. I have experience in tech support, mobile development,
+              Hello! I&lsquo;m an aspiring Software Engineer from the Philippines. I&lsquo;m currently on my graduating
+              year in the University of the Philippines Diliman. I have experience in tech support, mobile development,
               and fullstack development, and I adapt to new tech stacks quickly.
             </p>
           </section>
