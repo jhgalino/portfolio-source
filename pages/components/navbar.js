@@ -24,10 +24,10 @@ export default function Navbar() {
   let terminalMenu = !isNotOpen ?
     <nav className={'terminal-menu'}>
       <ul>
-        <li><a className={'menu-item'} href={'#'}>About</a></li>
-        <li><a className={'menu-item'} href={'#'}>Skills</a></li>
-        <li><a className={'menu-item'} href={'#'}>Projects</a></li>
-        <li><a className={'menu-item'} href={'#'}>Experience</a></li>
+        <li><a className={'menu-item'} href={'#skills'}>Skills</a></li>
+        <li><a className={'menu-item'} href={'#projects'}>Projects</a></li>
+        <li><a className={'menu-item'} href={'#work'}>Experience</a></li>
+        <li><a className={'menu-item'} href={'#contact'}>Contact</a></li>
       </ul>
     </nav>
     : null
@@ -59,10 +59,10 @@ export default function Navbar() {
             </div>
             <nav className={'terminal-menu'}>
               <ul>
-                <li><a className={'menu-item'} href={'#'}>About</a></li>
-                <li><a className={'menu-item'} href={'#'}>Skills</a></li>
-                <li><a className={'menu-item'} href={'#'}>Projects</a></li>
-                <li><a className={'menu-item'} href={'#'}>Work</a></li>
+                <li><a className={'menu-item'} href={'#skills'}>Skills</a></li>
+                <li><a className={'menu-item'} href={'#projects'}>Projects</a></li>
+                <li><a className={'menu-item'} href={'#work'}>Experience</a></li>
+                <li><a className={'menu-item'} href={'#contact'}>Contact</a></li>
               </ul>
             </nav>
           </div>
