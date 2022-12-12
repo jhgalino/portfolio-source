@@ -10,7 +10,6 @@ import github from '../public/github-fill.svg';
 import mail from '../public/mail-send-line.svg';
 import linkedin from '../public/linkedin-fill.svg';
 
-
 import projectStyle from '../styles/projects.module.css';
 import contactStyle from '../styles/contact.module.css';
 import footerStyle from '../styles/footer.module.css';
@@ -43,7 +42,7 @@ export default function Home() {
               and fullstack development, and I adapt to new tech stacks quickly.
             </p>
             <div className={contactStyle.contact}>
-              <button className={'btn btn-default'}>See my Résumé</button>
+              <a className={'btn btn-default'} href={'/Resume-Galino.pdf'}>See my Résumé</a>
             </div>
           </section>
           <hr/>
@@ -105,7 +104,7 @@ export default function Home() {
               <div className={'terminal-card'}>
                 <header>Kalibrr</header>
                 <div>
-                  <h4>Mobile Dev Intern (Jan 2022 - Jan 2023)</h4>
+                  <h4>Mobile Dev Intern (Jan 2022 - Dec 2022)</h4>
                   I was a mobile developer intern at Kalibrr for one year. I was able to develop skills in using Flutter
                   for mobile development and gain lots of experience in working with version control systems and SDLC.
                   During my internship, I contributed significant features and fixes to the Kalibrr mobile app.
