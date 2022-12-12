@@ -20,10 +20,13 @@ export default function Home() {
       </div>
       <div className={'container'}>
         <main>
+          {/*Title Section*/}
           <section>
             <h1>John Henry Galino</h1>
             <h2>Aspiring Software Engineer</h2>
           </section>
+
+          {/*Spiel*/}
           <section>
             <p>
               Hello! I&lsquo;m an aspiring Software Engineer from the Philippines. I&lsquo;m currently on my graduating
@@ -32,6 +35,8 @@ export default function Home() {
             </p>
           </section>
           <hr/>
+
+          {/*Skills*/}
           <section>
             <header>
               <h3>I have used...</h3>
@@ -39,6 +44,8 @@ export default function Home() {
             <SkillsGrid></SkillsGrid>
           </section>
           <hr />
+
+          {/*Projects*/}
           <section>
             <header>
               <h3>Projects</h3>
@@ -62,6 +69,43 @@ export default function Home() {
                   <p>Link: <a href={'https://github.com/jhgalino/web-scrape-rs'}>Github</a></p>
                   <hr />
                   <p>Built with Rust</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr />
+
+          {/*Previous Work*/}
+          <section>
+            <header>
+              <h3>Experience</h3>
+            </header>
+            <div className={'terminal-timeline'}>
+              <div className={'terminal-card'}>
+                <header>University of the Philippines Diliman Computer Center</header>
+                <div>
+                  <h4>Student Assistant (2019-Present)</h4>
+                  I am currently working part-time as a student assistant in my university&lsquo;s Computer Center,
+                  where I am responsible for addressing network-related problems within the Diliman Network, in
+                  addition to assisting students, faculty, and staff in their inquiries.
+                </div>
+              </div>
+              <div className={'terminal-card'}>
+                <header>D.W. Morgan</header>
+                <div>
+                  <h4>Backend Intern (Jun 2022 - Sept 2022)</h4>
+                  I was an intern of D.W. Morgan for my internship from Jun 2022 to Sept 2022. During my internship,
+                  I was able to add features and fix bugs for their Rails backend. I was also able to gain experience
+                  working with the cloud environment.
+                </div>
+              </div>
+              <div className={'terminal-card'}>
+                <header>DZUP 1602</header>
+                <div>
+                  <h4>Website Supervisor and Technical Support (Sept 2021 - Dec 2021)</h4>
+                  I worked as website supervisor and technical support for the Eskwekalikasan Project of DZUP from Sept
+                  2021 to Dec 2021. I added some improvements to their website such as changing the text-spacing
+                  algorithm of the pages.
                 </div>
               </div>
             </div>

@@ -27,7 +27,7 @@ export default function Navbar() {
         <li><a className={'menu-item'} href={'#'}>About</a></li>
         <li><a className={'menu-item'} href={'#'}>Skills</a></li>
         <li><a className={'menu-item'} href={'#'}>Projects</a></li>
-        <li><a className={'menu-item'} href={'#'}>Work</a></li>
+        <li><a className={'menu-item'} href={'#'}>Experience</a></li>
       </ul>
     </nav>
     : null
