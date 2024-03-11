@@ -44,7 +44,7 @@ export default function SkillsGrid() {
         <p>Github</p>
       </div>
       <div className={styles.skill}>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+        <img src="https://github.com/devicons/devicon/tree/v2.16.0/icons/rust/rust-plain.svg" />
         <p>Rust</p>
       </div>
       <div className={styles.skill}>

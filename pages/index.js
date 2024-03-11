@@ -42,7 +42,7 @@ export default function Home() {
               and fullstack development, and I adapt to new tech stacks quickly.
             </p>
             <div className={contactStyle.contact}>
-              <a className={'btn btn-default'} href={'/Resume-Galino.pdf'}>See my Résumé</a>
+              <a className={'btn btn-default'} href={'/Resume-Galinov2.pdf'}>See my Résumé</a>
             </div>
           </section>
           <hr/>
