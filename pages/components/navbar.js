@@ -1,5 +1,5 @@
 import HamburgerMenu from 'react-hamburger-menu';
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import menuPic from "../../public/8678542_terminal_box_line_icon-2.webp";
 import styles from '../../styles/navbar.module.css';
@@ -24,6 +24,7 @@ export default function Navbar() {
   let terminalMenu = !isNotOpen ?
     <nav className={'terminal-menu'}>
       <ul>
+        <li><a className={'menu-item'} href={'/blog'}>Blog</a></li>
         <li><a className={'menu-item'} href={'#skills'}>Skills</a></li>
         <li><a className={'menu-item'} href={'#projects'}>Projects</a></li>
         <li><a className={'menu-item'} href={'#work'}>Experience</a></li>
@@ -43,10 +44,10 @@ export default function Navbar() {
           <div className={'terminal-nav'}>
             <div className={'terminal-logo ' + styles.navMobileHeader}>
               <a href={'#'}>
-                <Image src={menuPic} className={'logo'} alt={'An icon of a terminal'} width={105} height={105}/>
+                <Image src={menuPic} className={'logo'} alt={'An icon of a terminal'} width={105} height={105} />
               </a>
               <HamburgerMenu isOpen={!isNotOpen} menuClicked={() => setNotOpen(!isNotOpen)}
-                             animationDuration={0.12} height={20} width={26}></HamburgerMenu>
+                animationDuration={0.12} height={20} width={26}></HamburgerMenu>
             </div>
             {terminalMenu}
           </div>
@@ -54,11 +55,12 @@ export default function Navbar() {
           <div className={'terminal-nav'}>
             <div className={'terminal-logo'}>
               <a href={'#'}>
-                <Image src={menuPic} className={'logo'} alt={'An icon of a terminal'} width={105} height={105}/>
+                <Image src={menuPic} className={'logo'} alt={'An icon of a terminal'} width={105} height={105} />
               </a>
             </div>
             <nav className={'terminal-menu'}>
               <ul>
+                <li><a className={'menu-item'} href={'/blog'}>Blog</a></li>
                 <li><a className={'menu-item'} href={'#skills'}>Skills</a></li>
                 <li><a className={'menu-item'} href={'#projects'}>Projects</a></li>
                 <li><a className={'menu-item'} href={'#work'}>Experience</a></li>
